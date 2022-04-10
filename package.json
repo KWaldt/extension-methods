@@ -1,13 +1,10 @@
 {
   "name": "com.kristinawaldt.extension-methods",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Extension Methods",
   "description": "Extension methods for different types.",
   "unity": "2019.4",
-  "dependencies": {
- },
- "keywords": [
-  ],
+  "keywords": [],
   "author": {
     "name": "Kristina Waldt",
     "email": "info@kristinawaldt.com",

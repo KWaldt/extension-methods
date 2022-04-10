@@ -24,9 +24,9 @@ namespace KristinaWaldt.ExtensionMethods
 
         public static void DestroyChildren(this Transform transform)
         {
-            foreach (Transform child in transform)
+            for (int i = transform.childCount - 1; i >= 0; i--)
             {
-                Object.Destroy(child.gameObject);
+                Object.Destroy(transform.GetChild(i).gameObject);
             }
         }
     }

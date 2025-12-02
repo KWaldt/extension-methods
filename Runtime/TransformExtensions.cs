@@ -26,7 +26,16 @@ namespace KristinaWaldt.ExtensionMethods
         {
             for (int i = transform.childCount - 1; i >= 0; i--)
             {
-                Object.Destroy(transform.GetChild(i).gameObject);
+                if (Application.isPlaying)
+                {
+                    Object.Destroy(transform.GetChild(i).gameObject);
+                }
+                else
+                {
+#if UNITY_EDITOR
+                    Object.DestroyImmediate(transform.GetChild(i).gameObject);
+#endif
+                }
             }
         }
     }

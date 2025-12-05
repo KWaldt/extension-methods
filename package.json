@@ -1,9 +1,8 @@
 {
   "name": "com.kristinawaldt.extension-methods",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "displayName": "Extension Methods",
-  "description": "Extension methods for different types.",
-  "unity": "2019.4",
+  "description": "Extension methods for different types.\nDifferent assemblies for editor and runtime so remember to include them if necessary.",
   "keywords": [],
   "author": {
     "name": "Kristina Waldt",

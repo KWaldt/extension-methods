@@ -12,9 +12,8 @@ using System.Linq;
 using System.Reflection;
 using System.Text.RegularExpressions;
 using UnityEditor;
-using UnityEngine;
 
-namespace KristinaWaldt.ExtensionMethods
+namespace KristinaWaldt.ExtensionMethods.Editor
 {
     public static partial class SerializedPropertyExtensions
     {

@@ -6,7 +6,7 @@
 using System.Collections.Generic;
 using UnityEditor;
 
-namespace KristinaWaldt.ExtensionMethods
+namespace KristinaWaldt.ExtensionMethods.Editor
 {
     public static partial class SerializedPropertyExtensions
     {

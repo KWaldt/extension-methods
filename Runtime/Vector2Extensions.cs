@@ -20,5 +20,13 @@ namespace KristinaWaldt.ExtensionMethods
         {
             return new Vector2Int(Mathf.RoundToInt(original.x), Mathf.RoundToInt(original.y));
         }
+        
+        /// <summary>
+        /// Creates a Vector3 with a z of 0.
+        /// </summary>
+        public static Vector3 ToVector3(this Vector2Int original)
+        {
+            return new Vector3(original.x, original.y, 0);
+        }
     }
 }

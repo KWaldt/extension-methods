@@ -6,7 +6,12 @@ namespace KristinaWaldt.ExtensionMethods
     {
         public static Color With(this Color original, float? r = null, float? g = null, float? b = null, float? a = null)
         {
-            return new Color(r ?? original.r, g ?? original.g, b ?? original.b, a ?? original.a);
+            return new (r ?? original.r, g ?? original.g, b ?? original.b, a ?? original.a);
+        }
+
+        public static Color SetAlpha(this Color original, float alpha)
+        {
+            return new (original.r, original.g, original.b, alpha);
         }
 
         public static string ToHex(this Color color)
